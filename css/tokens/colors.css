@@ -1,0 +1,55 @@
+:root{
+/* --- Base ink (sumi charcoal) --- */
+--ink-900:#171412;--ink-800:#241F1C;--ink-700:#332C28;--ink-600:#4A4340;--ink-500:#6E6660;
+--ink-400:#948B84;--ink-300:#B9B0A7;--ink-200:#D8D1C8;--ink-100:#EBE5DC;--ink-050:#F4F0E9;
+/* --- Paper (bone white) --- */
+--paper-000:#FFFFFF;--paper-050:#FBF9F5;--paper-100:#F7F4EF;--paper-200:#F0EBE3;
+/* --- Wagyu crimson (primary) --- */
+--crimson-900:#5E0D11;--crimson-800:#7C1318;--crimson-700:#8F171D;--crimson-600:#A61B22;
+--crimson-500:#BC2A31;--crimson-400:#CE4A50;--crimson-300:#E08D91;--crimson-100:#F6E4E4;--crimson-050:#FCF2F2;
+/* --- Marbling rose (meat imagery accent) --- */
+--rose-500:#C9767A;--rose-200:#EAC9C9;--rose-100:#F5E6E4;
+/* --- Cold chain (0-4C, logistics) --- */
+--cold-700:#234C5C;--cold-600:#2E5C6E;--cold-300:#8FB4BF;--cold-100:#E3EDF0;
+/* --- Dashi amber (soup & sauce category) --- */
+--amber-700:#8A5F1F;--amber-600:#B08033;--amber-300:#DCBB86;--amber-100:#F5EAD8;
+/* --- Leaf (fresh / success) --- */
+--leaf-700:#245C3C;--leaf-600:#2E7D4F;--leaf-100:#E2EFE7;
+
+/* --- Semantic: text --- */
+--text-strong:var(--ink-900);--text-body:var(--ink-700);--text-muted:var(--ink-500);
+--text-faint:var(--ink-400);--text-inverse:var(--paper-100);--text-brand:var(--crimson-600);
+--text-price:var(--ink-900);--text-link:var(--crimson-700);--text-link-hover:var(--crimson-500);
+/* --- Semantic: surface --- */
+--surface-page:var(--paper-100);--surface-card:var(--paper-000);--surface-sunken:var(--paper-200);
+--surface-ink:var(--ink-900);--surface-ink-soft:var(--ink-800);--surface-tint:var(--crimson-050);
+--surface-cold:var(--cold-100);--surface-amber:var(--amber-100);
+/* --- Semantic: border --- */
+--border-hairline:var(--ink-100);--border-subtle:var(--ink-200);--border-strong:var(--ink-900);
+--border-focus:var(--crimson-600);--border-selected:var(--ink-900);
+/* --- Semantic: action --- */
+--action-primary-bg:var(--crimson-600);--action-primary-bg-hover:var(--crimson-700);
+--action-primary-bg-active:var(--crimson-800);--action-primary-fg:#FFFFFF;
+--action-secondary-bg:var(--ink-900);--action-secondary-bg-hover:var(--ink-700);--action-secondary-fg:var(--paper-100);
+--action-ghost-fg:var(--ink-900);--action-ghost-bg-hover:var(--ink-050);
+--action-disabled-bg:var(--ink-100);--action-disabled-fg:var(--ink-400);
+/* --- Semantic: status --- */
+--status-success-fg:var(--leaf-700);--status-success-bg:var(--leaf-100);
+--status-warn-fg:var(--amber-700);--status-warn-bg:var(--amber-100);
+--status-error-fg:var(--crimson-700);--status-error-bg:var(--crimson-100);
+--status-info-fg:var(--cold-700);--status-info-bg:var(--cold-100);
+/* --- Family palette: warmer, friendlier hues for the four catalogue categories.
+   Deliberately mid-value and approachable rather than the deep "premium" crimson/ink. --- */
+--family-tomato:#D24B33;--family-tomato-100:#FBE7E1;
+--family-leaf:#4F8C4A;--family-leaf-100:#E8F1E5;
+--family-honey:#DFA02F;--family-honey-100:#FBEFD8;
+--family-sky:#3E8B9C;--family-sky-100:#E4F0F2;
+/* --- Category keys (used for eyebrows / chips) --- */
+--cat-beef:var(--family-tomato);--cat-set:var(--family-leaf);--cat-sauce:var(--family-honey);--cat-soup:var(--family-sky);
+--cat-beef-tint:var(--family-tomato-100);--cat-set-tint:var(--family-leaf-100);
+--cat-sauce-tint:var(--family-honey-100);--cat-soup-tint:var(--family-sky-100);
+/* --- Overlays --- */
+--overlay-scrim:rgba(23,20,18,.56);
+--overlay-protect:linear-gradient(180deg,rgba(23,20,18,0) 0%,rgba(23,20,18,.06) 38%,rgba(23,20,18,.62) 100%); /* @kind color */
+--overlay-glass:rgba(251,249,245,.82);
+}

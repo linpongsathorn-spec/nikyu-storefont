@@ -1,0 +1,11 @@
+# local build/staging
+.deploy/
+
+# source handoff bundle (not part of the site)
+handoff_extract/
+*.zip
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.log
