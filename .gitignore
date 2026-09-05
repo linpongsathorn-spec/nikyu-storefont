@@ -9,3 +9,4 @@ handoff_extract/
 Thumbs.db
 .DS_Store
 *.log
+.vdeploy/

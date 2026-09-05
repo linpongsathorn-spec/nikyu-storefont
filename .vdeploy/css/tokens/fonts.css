@@ -1,8 +1,0 @@
-/* NIKYU webfonts.
-   SUBSTITUTION NOTE: no font binaries were supplied with the brief. These are the
-   nearest Google Fonts matches for a Thai-first Japanese-import butcher brand.
-   Replace the @import lines with local @font-face rules when real files arrive. */
-@import url("https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&display=swap");
