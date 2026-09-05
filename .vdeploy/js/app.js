@@ -7,16 +7,16 @@
   "use strict";
 
   var IMG = {
-    chuck:   "assets/img/beef-chuck.jpg",
-    ribeye:  "assets/img/beef-ribeye.jpg",
-    strip:   "assets/img/beef-strip.jpg",
-    shabu:   "assets/img/set-shabu.jpg",
-    yaki:    "assets/img/set-yakiniku.jpg",
-    fig:     "assets/img/sauce-fig.jpg",
-    bulgogi: "assets/img/sauce-bulgogi.jpg",
-    spicy:   "assets/img/sauce-spicy.jpg",
-    gravy:   "assets/img/sauce-gravy.jpg",
-    dashi:   "assets/img/soup-dashi.jpg"
+    chuck:   "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/beef-chuck.png",
+    ribeye:  "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/beef-ribeye.png",
+    strip:   "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/beef-strip.png",
+    shabu:   "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/set-shabu.png",
+    yaki:    "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/set-yakiniku.png",
+    fig:     "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/sauce-fig.png",
+    bulgogi: "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/sauce-bulgogi.png",
+    spicy:   "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/sauce-spicy.png",
+    gravy:   "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/sauce-gravy.png",
+    dashi:   "https://cdn.jsdelivr.net/gh/linpongsathorn-spec/nikyu-storefont@main/assets/img/soup-dashi.png"
   };
 
   var DATA = [

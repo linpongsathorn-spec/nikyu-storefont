@@ -1,0 +1,13 @@
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--surface-page);color:var(--text-body);font-family:var(--font-sans);font-size:var(--type-body-size);line-height:var(--type-body-lh);font-weight:var(--fw-regular);-webkit-font-smoothing:antialiased;text-wrap:pretty}
+h1,h2,h3,h4{font-family:var(--font-display);color:var(--text-strong);line-height:var(--lh-snug);letter-spacing:var(--ls-display);margin:0;font-weight:var(--fw-semibold)}
+h1{font-size:var(--type-h1-size)}h2{font-size:var(--type-h2-size)}h3{font-size:var(--type-h3-size)}h4{font-size:var(--type-h4-size);font-weight:var(--fw-bold);letter-spacing:var(--ls-normal)}
+p{margin:0}
+a{color:var(--text-link);text-decoration:none;transition:color var(--dur-fast) var(--ease-out)}
+a:hover{color:var(--text-link-hover)}
+:where(button,a,input,select,textarea):focus-visible{outline:none;box-shadow:var(--focus-ring)}
+img,video{display:block;max-width:100%}
+.nk-eyebrow{font-family:var(--font-sans);font-size:var(--type-eyebrow-size);font-weight:var(--type-eyebrow-fw);letter-spacing:var(--type-eyebrow-ls);text-transform:uppercase;color:var(--text-muted)}
+.nk-wordmark{font-family:var(--font-display);font-weight:var(--fw-bold);letter-spacing:.02em;color:var(--text-strong)}
+.nk-container{max-width:var(--layout-max);margin:0 auto;padding-inline:var(--layout-gutter)}
